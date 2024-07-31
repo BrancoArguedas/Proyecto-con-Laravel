@@ -1,4 +1,4 @@
-<header class="flex bg-background h-14 items-center px-6 justify-between relative">
+<header class="flex bg-background h-14 items-center px-6 justify-between fixed w-full">
     <div class="flex items-center gap-2 z-10">
         <img 
             src="{{ asset('imagenes/logo.png') }}" 
