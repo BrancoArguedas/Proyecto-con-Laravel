@@ -7,7 +7,7 @@
     <title>Tienda nueva</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-background text-primary">
+<body class=" text-primary">
     @include('assets.header')
     <section class="pt-14 h-screen flex flex-col items-center">
         <h2 class="py-16 text-xl font-semibold w-full text-center">Iniciar sesión</h2>
@@ -40,7 +40,7 @@
             </div>
             <div class="mb-8">
                 <input class="border-2 border-primary" type="checkbox" name="aceptoPublicidad" id="aceptoPublicidad">
-                <label for="aceptoPublicidad" class="pl-2">Acepto recibir <a href="#" class="text-primary underline">Publicidad</a></label>
+                <label for="aceptoPublicidad" class="pl-2">Acepto recibir <a href="#" class="text-primary underline">Publicidad</a> (Opcional) </label>
             </div>
             <input type="submit" class="mt-8 border-2 border-primary text-background bg-primary text-xl font-normal py-2 rounded-sm" value="Iniciar sesión">
         </form>
